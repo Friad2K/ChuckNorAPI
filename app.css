@@ -1,0 +1,46 @@
+/* Set the font family and text alignment for the body element */
+body {
+    font-family: sans-serif;  
+    text-align: center;
+}
+
+/* Set the padding, maximum width, margin, display, flex direction, and align items properties for the container and form elements */
+.container, #form {
+    padding: 80;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Set the height, width, and margin-bottom properties for the chuckImg element */
+#chuckImg {
+    height: 280px;
+    width: 260px;
+    margin-bottom: 20px;
+    border:10px solid #474747;
+}
+
+/* Set the height, width, and font size properties for the jokeBtn element */
+#jokeBtn {
+    height: 60px;
+    width: 200px;
+    font-size: larger;
+}
+
+/* Set the margin-top, border, width, height, and font size properties for the button element */
+button {
+    margin-top: 15px;
+    border: 3px solid #474747;
+    width: 75px;
+    height: 50px;
+    font-size: large;
+}
+
+/* Set the border, padding, and font size properties for the text-box element */
+.text-box {
+    border: 10px solid #474747;
+    padding: 20px;
+    font-size: larger;
+  }
