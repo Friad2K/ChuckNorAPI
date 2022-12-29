@@ -16,11 +16,57 @@
 <body>
     <!-- Create a header element with a heading and an image -->
     <header>
-      
+        <h1>Kurdish K Norris</h1>
+        <img id="chuckImg" src="Img/Chuch.png" alt="A picture of Chuck Norris">
     </header>
     <!-- Create a main element with a form and a div element containing buttons and text elements -->
     <main>
-      
+        <!-- Create a form with a table and two input fields for the first and last name -->
+        <form id="form">
+            <table>
+                <!-- Create a row for the first name input field -->
+                <tr>
+                    <!-- Create a column for the label for the first name input field -->
+                    <th>
+                        <!-- Create a label for the first name input field -->
+                        <label for="FirstName">First Name</label>
+                    </th>
+                    <!-- Create a column for the first name input field -->
+                    <td>
+                        <!-- Create an input field for the first name with a placeholder text -->
+                        <input name="firstName" id="FirstName" placeholder="Kurdish">
+                    </td>
+                </tr>
+                <!-- Create a row for the last name input field -->
+                <tr>
+                    <!-- Create a column for the label for the last name input field -->
+                    <th>
+                        <!-- Create a label for the last name input field -->
+                        <label for="LastName">Last Name</label>
+                    </th>
+                    <!-- Create a column for the last name input field -->
+                    <td>
+                        <!-- Create an input field for the last name with a placeholder text -->
+                        <input name="lastName" id="LastName" placeholder="Norris">
+                    </td>
+                </tr>
+            </table>
+            <!-- Create a div element for the buttons and text elements -->
+            <div class="text-box">
+                <!-- Create a button for Chuck Norris jokes -->
+                <button type="button" id="joke-button">Chuck Norris</button>
+                <!-- Create a text element to display Chuck Norris jokes -->
+                <p id="joke-text"></p>
+                <!-- Create a button for movie jokes -->
+                <button type="button" id="movie-button">Movie</button>
+                <!-- Create a text element to display movie jokes -->
+                <p id="movie-text"></p>
+                <!-- Create a button for science jokes -->
+                <button type="button" id="science-button">Science</button>
+                <!-- Create a text element to display science jokes -->
+                <p id="science-text"></p>
+              </div>                
+        </form> 
     </main>
     <!-- Link to the JavaScript file for the document -->
     <script src="app.js"></script>
