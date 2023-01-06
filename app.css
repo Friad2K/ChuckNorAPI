@@ -1,6 +1,6 @@
 /* Set the font family and text alignment for the body element */
 body {
-    font-family: sans-serif;  
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ body {
     height: 280px;
     width: 260px;
     margin-bottom: 20px;
-    border:10px solid #474747;
+    border: 10px solid #474747;
 }
 
 /* Set the height, width, and font size properties for the jokeBtn element */
@@ -43,4 +43,33 @@ button {
     border: 10px solid #474747;
     padding: 20px;
     font-size: larger;
-  }
+}
+/* This style sets the width and height of the aboutUsImg element to 350 pixels */
+#aboutUsImg {
+    width: 350px;
+    height: 350px;
+}
+/* This style sets the font size of all p elements to xx-large */
+p {
+    font-size: xx-large;
+    margin: 0%;
+}
+/* This style sets the font size of all a elements to 30 pixels */
+a {
+    font-size: 30px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#photo-frame {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
